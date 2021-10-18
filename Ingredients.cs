@@ -20,7 +20,7 @@ namespace Task7.Menu
         }
 
         public Ingredients(Dictionary<string, double> dishes, Dictionary<string, double> prices)
-        {
+        {Перевірка на null!!!
             this.dishes = dishes;
             this.prices = prices;
         }
